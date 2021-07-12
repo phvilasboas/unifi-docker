@@ -4,7 +4,7 @@ LABEL maintainer="Pedro Henrique Vilas Boas <pedro@vilasboas.eti.br>"
 
 ARG DEBIAN_FRONTEND=noninteractive
 
-ARG PKGURL=https://dl.ui.com/unifi/6.1.71/unifi_sysvinit_all.deb
+ARG PKGURL=https://dl.ui.com/unifi/6.2.26/unifi_sysvinit_all.deb
 
 ENV BASEDIR=/usr/lib/unifi \
     DATADIR=/unifi/data \
